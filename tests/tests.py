@@ -8,7 +8,7 @@ def setUp(self):
     '''
     self.user_Elisephan = User(username = 'elisephan',firstname='testname1',lastname='testname2',password = 'passtest', email = 'test@test.com')
     self.pitch_one = Pitch(pitch = 'heyTest',category = 'Product',user = self.user_Elisephan)
-    self.new_comment = Comment(comment = 'nice test',pitch = self.pitch_one,user = user_Elisephanaaaaaa)
+    self.new_comment = Comment(comment = 'nice test',pitch = self.pitch_one,user = user_Elisepha)
 
 
 def tearDown(self):
